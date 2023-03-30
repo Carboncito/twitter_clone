@@ -1,3 +1,14 @@
 {
-  "extends": "@tsconfig/react-native/tsconfig.json"
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": ["jest", "styled-components-react-native"],
+    "paths": {
+      "screens": ["./src/screens"],
+      "theme": ["./src/theme"],
+      "types": ["./src/types"],
+      "components": ["./src/components"],
+      "components/*/partials": ["./src/components/*/partials"],
+    },
+  },
 }
