@@ -25,7 +25,7 @@ const getColorText = (props: PropsFunction): string => {
 
 export const TextStyled = styled.Text<TextProps>`
   font-style: normal;
-  ${getSizeText}
   ${getStyleText}
+  ${getSizeText}
   ${getColorText}
 `;
