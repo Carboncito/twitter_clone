@@ -5,9 +5,10 @@ const {
   default: styled,
   css,
   ThemeProvider,
+  useTheme,
 } = styledComponents as styledComponents.ReactNativeThemedStyledComponentsModule<
   Partial<DefaultTheme>
 >;
 
-export { css, ThemeProvider };
+export { css, ThemeProvider, useTheme };
 export default styled;
