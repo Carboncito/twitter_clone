@@ -4,5 +4,15 @@ declare module 'styled-components/native' {
     dark: string;
     black: string;
     white: string;
+    spacing: {
+      XXS: number;
+      XS: number;
+      SM: number;
+      M: number;
+      MD: number;
+      LG: number;
+      XL: number;
+      XXL: number;
+    };
   }
 }
