@@ -5,7 +5,7 @@ import { Text } from 'components';
 const Login = () => {
   return (
     <View>
-      <Text>Login</Text>
+      <Text h1>See what's happening in the world right now.</Text>
     </View>
   );
 };
