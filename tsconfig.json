@@ -5,6 +5,7 @@
     "types": ["jest", "styled-components-react-native"],
     "paths": {
       "screens": ["./src/screens"],
+      "assets": ["./src/assets"],
       "theme": ["./src/theme"],
       "types": ["./src/types"],
       "utils": ["./src/utils"],
