@@ -7,7 +7,7 @@ const Login = () => {
   return (
     <View>
       <TwitterLogo />
-      <Text h1>See what's happening in the world right now.</Text>
+      <Text h1>See what's happening in the world right now</Text>
     </View>
   );
 };
