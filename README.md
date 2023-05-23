@@ -15,3 +15,16 @@ The components were created following the following design: [DLS by untitledui](
 ## Base Screens
 
 Design screens were created with the next design: [twitter screens](https://www.figma.com/file/qZtjhucBSOXxf5IXnZcu0w/Twitter-Mobile-UI-Screens-(Community)?node-id=4-1224&t=PnRjMMgRMsyGJQGm-0)
+
+
+## Full clean pods
+
+In ios folder run the next commands:
+```bash
+rm -rf ~/Library/Caches/CocoaPods
+rm -rf Pods
+rm -rf ~/Library/Developer/Xcode/DerivedData/*
+pod deintegrate
+pod setup
+pod install
+```
